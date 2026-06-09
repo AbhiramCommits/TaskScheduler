@@ -1,0 +1,54 @@
+Start testing: Jun 09 11:49 PDT
+----------------------------------------------------------
+1/1 Testing: TaskSchedulerTests
+1/1 Test: TaskSchedulerTests
+Command: "/Users/abhiramkasireddi/TaskScheduler/build/TaskSchedulerTests"
+Directory: /Users/abhiramkasireddi/TaskScheduler/build
+"TaskSchedulerTests" start time: Jun 09 11:49 PDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/abhiramkasireddi/TaskScheduler/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from TaskTest
+[ RUN      ] TaskTest.PrintTask_ExecuteDoesNotThrow
+hello
+[       OK ] TaskTest.PrintTask_ExecuteDoesNotThrow (0 ms)
+[ RUN      ] TaskTest.FaultyTask_ExecuteThrows
+[       OK ] TaskTest.FaultyTask_ExecuteThrows (0 ms)
+[----------] 2 tests from TaskTest (0 ms total)
+
+[----------] 3 tests from TaskSchedulerTest
+[ RUN      ] TaskSchedulerTest.StartAndStop
+[       OK ] TaskSchedulerTest.StartAndStop (0 ms)
+[ RUN      ] TaskSchedulerTest.SubmitAfterStop_Throws
+[       OK ] TaskSchedulerTest.SubmitAfterStop_Throws (0 ms)
+[ RUN      ] TaskSchedulerTest.DoubleStart_Throws
+[       OK ] TaskSchedulerTest.DoubleStart_Throws (0 ms)
+[----------] 3 tests from TaskSchedulerTest (0 ms total)
+
+[----------] 2 tests from TaskSchedulerIntegrationTest
+[ RUN      ] TaskSchedulerIntegrationTest.ProcessesAllSubmittedTasks
+[       OK ] TaskSchedulerIntegrationTest.ProcessesAllSubmittedTasks (505 ms)
+[ RUN      ] TaskSchedulerIntegrationTest.HandlesExceptionsAndContinues
+print-2
+print-3
+print-1
+Task exception: task failed
+Task exception: task failedTask exception: task failed
+
+[       OK ] TaskSchedulerIntegrationTest.HandlesExceptionsAndContinues (506 ms)
+[----------] 2 tests from TaskSchedulerIntegrationTest (1012 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 3 test suites ran. (1012 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   1.23 sec
+----------------------------------------------------------
+Test Passed.
+"TaskSchedulerTests" end time: Jun 09 11:49 PDT
+"TaskSchedulerTests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Jun 09 11:49 PDT

@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/TaskSchedulerTests.dir/tests/TaskSchedulerTests.cpp.o -o TaskSchedulerTests  libscheduler_lib.a lib/libgtest_main.a lib/libgtest.a
