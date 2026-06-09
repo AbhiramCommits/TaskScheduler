@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <stdexcept>
 #include <string>
 
 class Task {
@@ -31,4 +32,14 @@ public:
 
 private:
     std::string message_;
+};
+
+class FaultyTask : public Task {
+public:
+    FaultyTask(std::string id, int priority)
+        : Task(priority, std::move(id)) {}
+
+    void execute() override {
+        throw std::runtime_error("task failed");
+    }
 };
