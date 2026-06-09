@@ -20,6 +20,7 @@ add_library(scheduler_lib
 )
 
 target_include_directories(scheduler_lib PUBLIC include)
+target_compile_options(scheduler_lib PRIVATE -Wall -Wextra -Wpedantic)
 target_link_libraries(scheduler_lib PUBLIC Threads::Threads)
 
 add_executable(TaskScheduler main.cpp)

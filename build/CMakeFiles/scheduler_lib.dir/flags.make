@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/abhiramkasireddi/TaskScheduler/include
 
-CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic
 
-CXX_FLAGS = -std=gnu++17 -arch arm64
+CXX_FLAGS = -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic
 

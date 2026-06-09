@@ -1,10 +1,10 @@
-Start testing: Jun 09 11:49 PDT
+Start testing: Jun 09 11:55 PDT
 ----------------------------------------------------------
 1/1 Testing: TaskSchedulerTests
 1/1 Test: TaskSchedulerTests
 Command: "/Users/abhiramkasireddi/TaskScheduler/build/TaskSchedulerTests"
 Directory: /Users/abhiramkasireddi/TaskScheduler/build
-"TaskSchedulerTests" start time: Jun 09 11:49 PDT
+"TaskSchedulerTests" start time: Jun 09 11:55 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /Users/abhiramkasireddi/TaskScheduler/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -31,24 +31,24 @@ hello
 [ RUN      ] TaskSchedulerIntegrationTest.ProcessesAllSubmittedTasks
 [       OK ] TaskSchedulerIntegrationTest.ProcessesAllSubmittedTasks (505 ms)
 [ RUN      ] TaskSchedulerIntegrationTest.HandlesExceptionsAndContinues
-print-2
 print-3
+print-2
 print-1
 Task exception: task failed
-Task exception: task failedTask exception: task failed
-
-[       OK ] TaskSchedulerIntegrationTest.HandlesExceptionsAndContinues (506 ms)
-[----------] 2 tests from TaskSchedulerIntegrationTest (1012 ms total)
+Task exception: Task exception: task failed
+task failed
+[       OK ] TaskSchedulerIntegrationTest.HandlesExceptionsAndContinues (505 ms)
+[----------] 2 tests from TaskSchedulerIntegrationTest (1010 ms total)
 
 [----------] Global test environment tear-down
-[==========] 7 tests from 3 test suites ran. (1012 ms total)
+[==========] 7 tests from 3 test suites ran. (1010 ms total)
 [  PASSED  ] 7 tests.
 <end of output>
-Test time =   1.23 sec
+Test time =   1.45 sec
 ----------------------------------------------------------
 Test Passed.
-"TaskSchedulerTests" end time: Jun 09 11:49 PDT
+"TaskSchedulerTests" end time: Jun 09 11:55 PDT
 "TaskSchedulerTests" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: Jun 09 11:49 PDT
+End testing: Jun 09 11:55 PDT
